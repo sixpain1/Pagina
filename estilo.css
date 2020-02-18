@@ -1,0 +1,83 @@
+*{
+	padding:0px;
+	margin: 0px;
+
+}
+header{
+	width: 100%;
+	background: #f2f2f2;
+	box-shadow: 1px 1px 5px #000;
+	height: 100px;
+}
+	#menu{
+
+		width: 100%;
+		padding-top: 40px;
+		margin: auto;
+	}
+		 /*Decoracion del menu*/
+	#menu ul a{		
+		float: left;
+		color: #6e6e6e;
+		text-decoration: none;
+		font:bold 26px Verdana;
+		padding: 27px 30px 22px 30px;
+		background:transparent ;
+		border-bottom: 19px solid transparent ;
+		transition:border-bottom.7s; 
+		-webkit-transition:border-bottom.7s; 
+		-moz-transition:border-bottom.7s; 
+		-o-transition:border-bottom.7s; 
+	}
+	#menu ul a:hover{
+		border-bottom: 9px solid #6e6e6e;
+	}
+		/**/
+
+	.nav>li{
+		display: inline-block;
+
+	}
+	#Curriculum{
+	margin-left: 20%;
+	opacity: 0;
+	transform:translateY(-30%);	
+	transition: all 400ms;
+	margin-top: 20%;
+	}
+
+	.nav{
+		list-style: none;
+		display: inline-block;
+	}
+
+	.cu{
+		list-style: none;
+		position: absolute;
+	}
+
+
+	/*Imagen de fondo */
+	#gatito{
+		width: 100%;
+		padding-top: 20px;
+		margin: auto;
+	}
+
+	/*Este es el footer */
+	.footer{
+	
+	margin-top: 45%;
+	font-size: 20px;
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	font-family: Oswald, sans-serif;
+	position: absolute;	
+	color: white;
+	background-color: black;
+
+}
+#contacto{
+	margin-top: 2.5rem;
+}
